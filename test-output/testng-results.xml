@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-01T09:16:11 IST" name="Default suite" finished-at="2023-09-01T09:16:29 IST" duration-ms="17637">
+    <groups>
+    </groups>
+    <test started-at="2023-09-01T09:16:11 IST" name="Default test" finished-at="2023-09-01T09:16:29 IST" duration-ms="17637">
+      <class name="testscripts.regression.ValidateRegistrationDataProvider">
+        <test-method is-config="true" signature="fileSetUp()[pri:0, instance:testscripts.regression.ValidateRegistrationDataProvider@7c137fd5]" started-at="2023-09-01T09:16:11 IST" name="fileSetUp" finished-at="2023-09-01T09:16:12 IST" duration-ms="1039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileSetUp -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:testscripts.regression.ValidateRegistrationDataProvider@7c137fd5]" started-at="2023-09-01T09:16:14 IST" name="setup" finished-at="2023-09-01T09:16:24 IST" duration-ms="9564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2d70f312]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateRegistrationTest(java.util.HashMap)[pri:0, instance:testscripts.regression.ValidateRegistrationDataProvider@7c137fd5]" started-at="2023-09-01T09:16:24 IST" name="validateRegistrationTest" data-provider="getData" finished-at="2023-09-01T09:16:27 IST" duration-ms="3715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Expected Title=Adactin.com - New User Registration, Username=Ravi1805, Captcha Text=marbly, Confirm Password=Ravi123, Full Name=Ravi Kumar, Password=Ravi123, Email Address=ravi12@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegistrationTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateRegistrationDataProvider@7c137fd5]" started-at="2023-09-01T09:16:27 IST" name="teardown" finished-at="2023-09-01T09:16:28 IST" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="reportsClosed()[pri:0, instance:testscripts.regression.ValidateRegistrationDataProvider@7c137fd5]" started-at="2023-09-01T09:16:28 IST" name="reportsClosed" finished-at="2023-09-01T09:16:29 IST" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportsClosed -->
+      </class> <!-- testscripts.regression.ValidateRegistrationDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
